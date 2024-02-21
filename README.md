@@ -9,8 +9,8 @@ This is app is a little personal project to organize tasks and pick them out ran
 3. Once you complete a task, press "I did it" and it gets removed from the list.
 
 ## Screenshots
-<img src="https://github.com/custodioij/ChoreBowl/blob/main/ChoreBowl_screenshot_1.png" width="20" />  
+<img src="https://github.com/custodioij/ChoreBowl/blob/main/ChoreBowl_screenshot_1.png" width="200" />  
 
-<img src="https://github.com/custodioij/ChoreBowl/blob/main/ChoreBowl_screenshot_2.png" width="20" />  
+<img src="https://github.com/custodioij/ChoreBowl/blob/main/ChoreBowl_screenshot_2.png" width="200" />  
 
-<img src="https://github.com/custodioij/ChoreBowl/blob/main/ChoreBowl_screenshot_3.png" width="20" />  
+<img src="https://github.com/custodioij/ChoreBowl/blob/main/ChoreBowl_screenshot_3.png" width="200" />  
