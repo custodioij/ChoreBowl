@@ -1,8 +1,15 @@
-//
-//  ChoreListManager.swift
-//  ChoreBowl
-//
-//  Created by Igor Custodio João on 20/02/2024.
-//
+import SwiftUI
 
-import Foundation
+class ChoreListManager: ObservableObject {
+    @Published var choreList: [String] {
+        didSet {
+            // Save choreList to UserDefaults whenever it changes
+            UserDefaults.standard.set(choreList, forKey: "choreList")
+        }
+    }
+    
+    init() {
+        // Load choreList from UserDefaults when initializing
+        self.choreList = UserDefaults.standard.array(forKey: "choreList") as? [String] ?? []
+    }
+}

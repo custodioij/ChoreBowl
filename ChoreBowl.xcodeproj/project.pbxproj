@@ -14,6 +14,7 @@
 		FCBA69ED2B84EE23003F0EB9 /* ChoreBowlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA69EC2B84EE23003F0EB9 /* ChoreBowlTests.swift */; };
 		FCBA69F72B84EE23003F0EB9 /* ChoreBowlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA69F62B84EE23003F0EB9 /* ChoreBowlUITests.swift */; };
 		FCBA69F92B84EE23003F0EB9 /* ChoreBowlUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA69F82B84EE23003F0EB9 /* ChoreBowlUITestsLaunchTests.swift */; };
+		FCBA6A062B8506B5003F0EB9 /* ChoreListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBA6A052B8506B5003F0EB9 /* ChoreListManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FCBA69F22B84EE23003F0EB9 /* ChoreBowlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChoreBowlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBA69F62B84EE23003F0EB9 /* ChoreBowlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreBowlUITests.swift; sourceTree = "<group>"; };
 		FCBA69F82B84EE23003F0EB9 /* ChoreBowlUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreBowlUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FCBA6A052B8506B5003F0EB9 /* ChoreListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoreListManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				FCBA69DB2B84EE21003F0EB9 /* ChoreBowlApp.swift */,
 				FCBA69DD2B84EE21003F0EB9 /* ContentView.swift */,
+				FCBA6A052B8506B5003F0EB9 /* ChoreListManager.swift */,
 				FCBA69DF2B84EE23003F0EB9 /* Assets.xcassets */,
 				FCBA69E12B84EE23003F0EB9 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCBA69DE2B84EE21003F0EB9 /* ContentView.swift in Sources */,
+				FCBA6A062B8506B5003F0EB9 /* ChoreListManager.swift in Sources */,
 				FCBA69DC2B84EE21003F0EB9 /* ChoreBowlApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChoreBowl/Preview Content\"";
+				DEVELOPMENT_TEAM = 386DLF6NF5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ChoreBowl/Preview Content\"";
+				DEVELOPMENT_TEAM = 386DLF6NF5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
