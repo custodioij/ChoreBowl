@@ -68,7 +68,7 @@ struct ContentView: View {
         }
         .padding()
         .fullScreenCover(isPresented: $showSecondScreen) {
-            SecondScreen(isPresented: $showSecondScreen, activeChore: activeChore) // Present SecondScreen when showSecondScreen is true
+            SecondScreen(isPresented: $showSecondScreen, activeChore: activeChore, choreListManager: choreListManager) // Present SecondScreen when showSecondScreen is true
                 }
     }
 }
@@ -76,6 +76,8 @@ struct ContentView: View {
 struct SecondScreen: View {
     @Binding var isPresented: Bool // Binding to control the presentation of SecondScreen
     let activeChore: String // Define activeChore property
+    @StateObject var choreListManager: ChoreListManager // Access to choreListManager
+
     
     var body: some View {
         VStack {
@@ -83,6 +85,7 @@ struct SecondScreen: View {
             Text(activeChore)
             Text("Did you do it?")
             Button("I did it") {
+                choreListManager.choreList.removeAll { $0 == activeChore } // Remove activeChore from choreList
                 isPresented = false
                 }
         }
